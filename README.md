@@ -28,10 +28,15 @@
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 2. **Create the Workspace**:
    ```bash
-   daytona create https://github.com/Samundra-Subedi/Progify-Daytona.git
+   daytona create https://github.com/daytonaio/sample-ai-editor-progify
    ```
-3. **Start the Application**:
-  Go to backend Folder
+3. **Create your own .env file under the backend directory**:
+    ```bash
+   GOOGLE_API_KEY=<YOUR_GEMINI_API_KEY>
+   ```
+4. **Start the Application**:
+  
+    Go to backend Folder
    ```bash
    npm start
    ```
